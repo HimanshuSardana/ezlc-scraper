@@ -9,17 +9,17 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/himanshu/projects/lc-guide"
+setenv VIRTUAL_ENV /home/himanshu/projects/college_projects/ai/ezlc-scraper
 
 set _OLD_VIRTUAL_PATH="$PATH"
-setenv PATH "$VIRTUAL_ENV/bin:$PATH"
+setenv PATH "$VIRTUAL_ENV/"bin":$PATH"
+setenv VIRTUAL_ENV_PROMPT ezlc-scraper
 
 
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(lc-guide) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(lc-guide) "
+    set prompt = "("ezlc-scraper") $prompt:q"
 endif
 
 alias pydoc python -m pydoc

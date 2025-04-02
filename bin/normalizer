@@ -1,4 +1,4 @@
-#!/home/himanshu/projects/lc-guide/bin/python3
+#!/home/himanshu/projects/college_projects/ai/ezlc-scraper/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
